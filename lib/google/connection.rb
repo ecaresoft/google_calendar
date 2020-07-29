@@ -9,7 +9,7 @@ module Google
     BASE_URI = "https://www.googleapis.com/calendar/v3"
     TOKEN_URI ="https://accounts.google.com/o/oauth2/token"
     AUTH_URI = "https://accounts.google.com/o/oauth2/auth"
-    SCOPE = "https://www.googleapis.com/auth/calendar"
+    SCOPE = "https://www.googleapis.com/auth/calendar.events"
     attr_accessor :client
 
     def self.new_with_service_account(params)
